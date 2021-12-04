@@ -23,7 +23,7 @@
         v-for="(item, index) in pageSize" 
         :key="index"
         @click="changePage(index + 1)"
-        :class="{'mx-2 px-4': cars.length > 6 , 'active-btn': pageData.pageNo === index + 1 }" 
+        :class="[cars.length > 6 && 'mx-2 px-4', pageData.pageNo === index + 1 ? 'active-btn': 'btn-neu' ]" 
         > <span class="colored text-md">{{ index + 1 }}</span> </app-button>
     </div>
   </div>
