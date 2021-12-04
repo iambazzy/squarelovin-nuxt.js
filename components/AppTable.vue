@@ -23,7 +23,8 @@
         v-for="(item, index) in pageSize" 
         :key="index"
         @click="changePage(index + 1)"
-        :class="[cars.length > 6 && 'mx-2 px-4', pageData.pageNo === index + 1 ? 'active-btn': 'btn-neu' ]" 
+        :active="pageData.pageNo === index + 1"
+        :class="[cars.length > 6 && 'mx-2 px-4']" 
         > <span class="colored text-md">{{ index + 1 }}</span> </app-button>
     </div>
   </div>
@@ -80,10 +81,3 @@ export default {
   },
 }
 </script>
-
-<style scoped>
-  .active-btn {
-    background-blend-mode: soft-light, normal;
-    box-shadow: inset -3.38462px -3.38462px 6.76923px #FAFBFF, inset 3.38462px 3.38462px 6.76923px #A6ABBD;
-  }
-</style>
