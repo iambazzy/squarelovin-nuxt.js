@@ -1,4 +1,4 @@
-# A test task for (SquareLovin)[https://www.squarelovin.com]
+# A test task for https://www.squarelovin.com
 
 ## Build Setup
 
