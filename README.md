@@ -2,7 +2,7 @@
 
 # Screen To Be Developed
 
-[Figma Link](https://www.figma.com/file/0FlATNFKDXxVlqUQcK1LhM/NUXT-Test-Task)
+[Figma Link](https://www.figma.com/file/0FlATNFKDXxVlqUQcK1LhM/NUXT-Test-Task) - Frame 3 had to converted.
 
 <img width="1440" alt="Screenshot 2022-02-09 at 2 34 22 PM" src="https://user-images.githubusercontent.com/36547363/153161806-908cdd69-919d-4147-b389-1398f8913101.png">
 
