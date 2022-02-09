@@ -3,8 +3,11 @@
 # Technologies Used
 
 > Nuxt
+
 > Tailwind
+
 > Vanilla Js
+
 > Sass
 
 ## Build Setup
